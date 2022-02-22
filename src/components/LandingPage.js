@@ -1,21 +1,8 @@
 import React from 'react';
-import * as Scroll from 'react-scroll';
-
-let scroll = Scroll.animateScroll;
 
 
 
 function LandingPage() {
-
-    var Events = Scroll.Events;
-
-    Events.scrollEvent.register('begin', function(to, element) {
-      console.log('begin', to, element);
-    });
-
-    Events.scrollEvent.register('end', function(to, element) {
-      console.log('end', to, element);
-    });
 
     return (
           <main className='main-content'>
