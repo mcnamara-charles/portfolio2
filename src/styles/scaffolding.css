@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    touch-action: none
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.site-opener-image {
+    display: block;
+    margin: auto;
+}
+
+.counter__wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content
+}
+
+.counter__wrapper > * {
+    border-right: 1px solid white
+}
+
+.counter-section__heading {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.counter-section {
+    padding: 25px;
+    transition-duration: 1s;
+    width: 18vw;
+    max-width: 400px;
+}
+
+.counter-section:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+    cursor: crosshair;
+}
+
+.tl-sh > * {
+    margin-right: 15px
+}
+
+header.site-header {
+    padding: 20px 25px;
+    font-size: 35px;
+    color: white
+}
+
+.hyperbloom-logo-header {
+    width: 300px;
+    display: block;
+}
+
+@media screen and (max-width: 1500px) {
+    .counter-section {
+        width: 23.5vw;
+        padding: 15px
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .counter-section {
+        padding: 8px
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .counter__wrapper {
+        flex-flow: column;
+    }
+
+    .counter__wrapper > * {
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
+    .counter-section {
+        max-width: 700px;
+        width: 80vw;
+        padding: 25px
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .counter-section {
+        max-width: 700px;
+        width: 85vw;
+        padding: 25px
+    }
+}

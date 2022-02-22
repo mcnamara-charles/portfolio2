@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Noto+Serif+Display:ital,wght@0,600;1,900&family=Nunito:wght@200&family=Plaster&family=Raleway:wght@300;500&display=swap');
+
+.App {
+    background-color: black;
+}
+
+main {
+    background-color: black;
+    min-height: 100vh;
+    color: white
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito';
+    font-weight: 900;
+}
+
+.display.x7 {
+    font-size: 110px;
+    margin-top: 0;
+    margin-left: 20px;
+    text-rendering: optimizeLegibility;
+    line-height: 12vh;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-family: 'Plaster';
+}
+
+.counter-section__heading {
+    font-family: 'Plaster';
+    font-weight: 600;
+    font-size: 13.1vw;
+    margin: 0;
+    text-align: center;
+    line-height: 10vw;
+}
+
+.counter-section__subheading {
+    font-weight: 500;
+    font-family: 'Raleway';
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.counter-section p {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tl-sh {
+    font-family: 'Noto Serif Sans';
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 7.25vw;
+    text-align: center;
+    width: 100%
+}
+
+.site-opener-image {
+    max-width: 50vw;
+}
+
+@media screen and (min-width: 2350px) {
+    .counter-section__heading {
+        font-size: 350px;
+        line-height: 300px;
+    }
+
+    .counter-section__subheading {
+        font-size: 35px;
+    }    
+}
+
+@media screen and (max-width: 991px) {
+    .counter-section__heading {
+        font-size: 150px;
+        line-height: 125px;
+    }
+
+    .counter-section__subheading {
+        font-size: 25px;
+    }    
+}
